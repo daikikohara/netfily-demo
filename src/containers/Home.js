@@ -9,11 +9,11 @@ const Home = () => (
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:title', content: 'Home' },
         { name: 'twitter:description', content: 'description of Home' },
-        { name: 'twitter:image', content: 'http://path/to/image' },
+        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/546224435670163456/IQ2EDrPc.jpeg' },
         { property: 'og:title', content: 'Home' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'http://path/to/this/url' },
-        { property: 'og:image', content: 'http://path/to/image' },
+        { property: 'og:url', content: 'https://baliff-valerie-28140.netlify.com/' },
+        { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/546224435670163456/IQ2EDrPc.jpeg' },
         { property: 'og:description', content: 'description of Home' },
       ]}
     />
