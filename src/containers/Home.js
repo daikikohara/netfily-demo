@@ -17,7 +17,7 @@ const Home = (props) => (
         { property: 'og:description', content: 'description of Home' },
       ]}
     />
-    <h2>Home of Branch A</h2>
+    <h2>Home of Branch B</h2>
     <span>{props.name}</span>
   </div>
 )
