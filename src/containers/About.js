@@ -18,7 +18,7 @@ const About = (props) => (
         { property: 'og:description', content: 'description of About' },
       ]}
     />
-    <h2>About</h2>
+    <h2>About of Branch A</h2>
     <span>{props.name}</span>
     <span>{moment().format()}</span>
   </div>
