@@ -9,10 +9,12 @@ import logo from './logo.svg';
 import './App.css';
 import AsyncContainer from './containers/AsyncContainer';
 
+const host = window.location.host;
+
 const Home = AsyncContainer(() => import('./containers/Home')
-  .then(module => module.default), { name: 'This is our Home page' });
+  .then(module => module.default), { name: 'This is our Home page', host });
 const About = AsyncContainer(() => import('./containers/About')
-  .then(module => module.default), { name: 'This is our About page' });
+  .then(module => module.default), { name: 'This is our About page', host });
 
 class App extends Component {
   render() {
